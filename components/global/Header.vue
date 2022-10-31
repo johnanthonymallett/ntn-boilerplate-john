@@ -45,7 +45,6 @@ export default {
   & .scrim-bg {
     &::after {
       animation-name: fadeIn2;
-      background: linear-gradient(to bottom, #e5e7eb, cubic-bezier(0.15, 0, 0.45, 1), transparent);
     }
   }
   & .nuxt-link-exact-active {
