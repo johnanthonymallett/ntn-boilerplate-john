@@ -9,9 +9,8 @@
         class="card card--clickable"
       >
         <template v-if="postType === 'projects'">
-          <span class="flex-1">
-            <h6 class="inline-block py-1 px-2 mr-1 bg-gray text-white text-sm font-medium rounded-sm">{{ post.category }}</h6>
-            <h3 class="card-title">{{ post.title }}</h3>
+          <span class="flex-1">            
+            <h1 class="card-title">{{ post.title }}</h1>
             <p class="mt-2">{{ post.description }}</p>
           </span>
           <img

@@ -1,28 +1,28 @@
 @layer components {
   .btn {
-    @apply text-center font-semibold rounded py-2 px-4 border border-primary-400 text-primary-400 bg-gray-900;
+    @apply text-center font-semibold rounded-full py-2 px-4 text-primary-800 bg-gray-100;
     &:hover {
-      @apply border-primary-300 bg-primary-800 text-white;
+      @apply bg-gray-200 text-primary-900;
     }
 
     &.btn--active {
-      @apply text-white bg-primary border-primary;
+      @apply text-primary-900 bg-primary-200;
       &:hover {
-        @apply bg-primary-600;
+        @apply bg-primary-200;
       }
     }
     &.btn--disabled,
     &[disabled='true'],
     &:disabled {
-      @apply text-gray-400 cursor-not-allowed;
+      @apply text-gray-800 cursor-not-allowed;
     }
   }
 
   .light {
     & .btn {
-      @apply border-primary-600 text-primary-800 bg-gray-200;
+      @apply text-primary-800 bg-gray-200;
       &:hover {
-        @apply border-primary bg-primary-200 text-primary-900;
+        @apply bg-primary-200 text-primary-900;
       }
     }
   }

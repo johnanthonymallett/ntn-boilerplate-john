@@ -1,9 +1,14 @@
 <template>
   <main>
-    <section v-if="posts" class="w-full max-w-5xl mx-auto">
-      <h1 class="title">Blog</h1>
-      <posts post-type="blog" :amount="10" />
-    </section>
+    <article>
+      
+      <p class="mt-1 mb-4 text-primary-900">John Anthony Mallett is a graphic designer based in Te Whānganui A Tara, Wellington. They have recently completed a Bachelor of Visual Communication Design with Honours, specialising in Typographic, Digital and Print design, at Massey University College of Creative Arts Toi Rauwhārangi</p>
+      <p class="mt-1 mb-4 text-primary-900">email</p>
+      <p class="mt-1 mb-4 text-primary-900">email</p>
+
+
+      
+    </article>
   </main>
 </template>
 
