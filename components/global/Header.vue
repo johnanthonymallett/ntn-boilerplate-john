@@ -48,7 +48,7 @@ export default {
     }
   }
   & .nuxt-link-exact-active {
-    @apply text-primary-700 border-gray-600 bg-gray-100;
+    @apply text-primary-700 border-gray-600 bg-gray-200;
   }
 }
 
