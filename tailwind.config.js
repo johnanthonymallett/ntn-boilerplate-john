@@ -15,13 +15,6 @@ module.exports = {
       letterSpacing: {
         tight: '0.0125em',
       },
-      backdropBlur: {
-        sm: '200px',
-        lg: '200px',
-      },
-      backgroundOpacity: {
-        50: '0.5',
-      },
       colors: {
         gray: {
           50: 'var(--color-gray-50)', // #F9FAFB
