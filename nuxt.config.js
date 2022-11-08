@@ -21,7 +21,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'John Anthony Mallett',
+    title: SITE_INFO.sitename || process.env.npm_package_name || '',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -33,11 +33,29 @@ export default {
     ],
     link: [
       {
-        rel: 'icon',
-        type: 'image/png',
-        href: 'static/icon.png',
+        rel: 'preconnect',
+        href: 'https://fonts.gstatic.com',
+        crossorigin: true,
+      },
+      {
+        rel: 'preload',
+        as: 'style',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap',
+        media: 'print',
+        onload: `this.media='all'`,
       },
     ], // ? Imports the font 'Inter', can be optimized by the netlify plugin 'Subfont' by uncommenting it in `netlify.toml`
+    noscript: [
+      {
+        innerHTML:
+          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap">',
+      },
+    ],
+    __dangerouslyDisableSanitizers: ['noscript'],
   },
   /*
    ** Customize the progress-bar color
