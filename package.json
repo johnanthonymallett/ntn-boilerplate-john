@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
+  "name": "john-mallett",
   "version": "2.1.3",
   "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <hello+dev@svenparker.com> (https://svenparker.com)",
+  "author": "John Anthony Mallett (https://johnmallett.info)",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
