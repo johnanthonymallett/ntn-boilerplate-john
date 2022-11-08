@@ -30,7 +30,8 @@
       font-normal
       text-3xl
       leading-tight
-      tracking-tight;
+      tracking-tight
+      sm:tracking-normal;
   }
 
   h2 {
@@ -38,14 +39,16 @@
       font-semibold
       text-xl
       leading-tight
-      tracking-tight;
+      tracking-tight
+      sm:tracking-normal;
   }
 
   h3 {
     @apply font-sans
       tracking-tight
       text-xl
-      leading-tight;
+      leading-tight
+      sm:tracking-normal;
   }
 
   h4 {
@@ -53,13 +56,15 @@
       font-normal
       text-xl
       tracking-tight
-      leading-tight;
+      leading-tight
+      sm:tracking-normal;
   }
 
   h5 {
     @apply text-lg
       leading-tight
-      tracking-tight;
+      tracking-tight
+      sm:tracking-normal;
   }
 
   h6 {
@@ -67,12 +72,13 @@
       text-lg
       leading-tight
       tracking-tight
-      uppercase;
+      uppercase
+      sm:tracking-normal;
   }
 
   p {
     color: var(--text--secondary);
-    @apply font-sans tracking-tight leading-normal transition-colors duration-200 ease-in-out;
+    @apply font-sans tracking-tight leading-normal transition-colors duration-200 ease-in-out sm:tracking-normal;
 
     & + h1,
     & + h2,
@@ -93,17 +99,17 @@
 
   a {
     color: var(--text-secondary);
-    @apply transition-colors duration-200 ease-in-out tracking-tight;
+    @apply transition-colors duration-200 ease-in-out tracking-tight sm:tracking-normal;
   }
 
   .title {
     color: var(--text-secondary);
-    @apply block text-3xl font-sans transition-colors duration-200 ease-in-out tracking-tight;
+    @apply block text-3xl font-sans transition-colors duration-200 ease-in-out tracking-tight sm:tracking-normal;
   }
 
   .subtitle {
     color: var(--text);
-    @apply block text-xl font-sans transition-colors duration-200 ease-in-out tracking-tight;
+    @apply block text-xl font-sans font-normal transition-colors duration-200 ease-in-out tracking-tight sm:tracking-normal;
   }
 
   .vue-typer .custom.char {
@@ -128,7 +134,7 @@
         &::before {
           content: '#';
           color: var(--text-secondary);
-          @apply -ml-6 opacity-0 transition-opacity duration-100 ease-in-out tracking-tight;
+          @apply -ml-6 opacity-0 transition-opacity duration-100 ease-in-out tracking-tight sm:tracking-normal;
         }
       }
       &:active,
@@ -159,7 +165,7 @@
     & ol > li,
     & ul > li {
       color: var(--text);
-      @apply font-sans leading-normal tracking-tight transition-colors duration-200 ease-in-out;
+      @apply font-sans leading-normal tracking-tight transition-colors duration-200 ease-in-out sm:tracking-normal;
     }
     & > ol {
       @apply list-decimal grid gap-y-2 my-4 ml-4;
