@@ -114,6 +114,7 @@
 
   .vue-typer .custom.char {
     color: var(--text-secondary);
+    @apply block text-3xl;
   }
 
   .vue-typer .custom.caret {
@@ -134,7 +135,7 @@
         &::before {
           content: '#';
           color: var(--text-secondary);
-          @apply -ml-6 opacity-0 transition-opacity duration-100 ease-in-out tracking-tight sm:tracking-normal;
+          @apply -ml-6 opacity-0 transition-opacity duration-100 ease-in-out tracking-tight font-normal sm:tracking-normal;
         }
       }
       &:active,
