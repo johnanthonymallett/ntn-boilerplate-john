@@ -13,7 +13,7 @@ module.exports = {
         sans: ['ABC Diatype'],
       },
       letterSpacing: {
-        tight: '-1.2%',
+        tight: '-4%',
       },
       colors: {
         gray: {
