@@ -16,7 +16,7 @@ module.exports = {
         normal: 500,
       },
       letterSpacing: {
-        tight: '-0.0125em',
+        tight: '-0.05em',
       },
       colors: {
         gray: {
