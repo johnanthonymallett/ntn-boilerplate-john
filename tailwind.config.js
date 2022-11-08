@@ -12,8 +12,11 @@ module.exports = {
       fontFamily: {
         sans: ['ABC Diatype'],
       },
+      fontWeight: {
+        normal: 500,
+      },
       letterSpacing: {
-        tight: '-0.025em',
+        tight: '-0.0125em',
       },
       colors: {
         gray: {
