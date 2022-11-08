@@ -1,9 +1,11 @@
 ---
 category: animals
-title: Placeholder Bears
-description: Necessary to show how a project with the category Animals is used
-cover: https://placebear.com/400/200
-gallery: ['https://placebear.com/g/800/400', 'https://placebear.com/600/600']
+title: By the book
+description: "2022"
+cover: /img/image-1_mallett_john_by_the_book.webp
+gallery:
+  - /img/print-spreads_mallett_john_by_the_book.webp
+  - /img/image-3_mallett_john_by_the_book.webp
 ---
 
 It is easy to write **markdown**-*enabled* content like this placeholder text, with support for images.
