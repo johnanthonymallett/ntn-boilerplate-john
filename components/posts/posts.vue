@@ -10,7 +10,7 @@
       >
         <template v-if="postType === 'projects'">
           <span class="flex-1">            
-            <h1 class="card-title">{{ post.title }}</h1>
+            <h1 class="card-title ss-13">{{ post.title }}</h1>
             <p class="mt-2">{{ post.description }}</p>
           </span>
           <img

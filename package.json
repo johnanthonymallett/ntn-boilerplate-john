@@ -17,6 +17,7 @@
   "dependencies": {
     "@nuxt/content": "^1.15.1",
     "nuxt": "^2.15.8",
+    "tailwindcss-opentype": "^1.1.0",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
