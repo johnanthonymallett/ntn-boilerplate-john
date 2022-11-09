@@ -4,8 +4,7 @@ logo_url: https://johnmallett.info/icon.png
 publish_mode: editorial_workflow
 backend:
   name: git-gateway
-  repo: johnanthonymallett/ntn-boilerplate-john
-  branch: master
+  branch: main
   squash_merges: true
 
 # used together with `npx netlify-cms-proxy-server`. https://www.netlifycms.org/docs/beta-features/#working-with-a-local-git-repository
