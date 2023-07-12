@@ -1,6 +1,7 @@
 ---
 category: animals
 title: "Contemporary Letterpress: J.G. Ballard Novels 1970–75"
+description: "2022"
 cover: /img/mallett_john_letterpress_2022_presentation-images-2.webp
 gallery:
   - /img/mallett_john_letterpress_2022_presentation-images-2.webp
